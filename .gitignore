@@ -3,5 +3,5 @@ transactions.db
 transactions_data.xlsx
 test.py
 .venv
-.DS_store
+.DS_Store
 TransactionStatements
