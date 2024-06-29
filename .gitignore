@@ -1,0 +1,6 @@
+.env
+transactions.db
+transactions_data.xlsx
+test.py
+pdfvsimg.pdf
+.venv

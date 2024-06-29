@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Picture</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Upload PDF</h1>
+        <form id="uploadForm">
+            <label for="bank">Select Bank:</label>
+            <select id="bank" name="bank">
+                <option value="Bank of America">Bank of America</option>
+                <option value="Chase">Chase</option>
+            </select>
+
+            <label for="file">Upload PDF:</label>
+            <input type="file" id="file" name="file" accept="application/pdf">
+
+            <button id="submitbtn" type="submit">Upload</button>
+        </form>
+    </div>
+    <script src="{{ url_for('static', filename='javascript.js') }}"></script>
+</body>
+
+</html>
