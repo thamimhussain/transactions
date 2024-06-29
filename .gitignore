@@ -2,5 +2,6 @@
 transactions.db
 transactions_data.xlsx
 test.py
-pdfvsimg.pdf
 .venv
+.DS_store
+TransactionStatements
